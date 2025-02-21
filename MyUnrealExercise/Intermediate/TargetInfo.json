@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyUnrealExercise",
+			"Path": "..\\Source\\MyUnrealExercise.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyUnrealExerciseEditor",
+			"Path": "..\\Source\\MyUnrealExerciseEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
