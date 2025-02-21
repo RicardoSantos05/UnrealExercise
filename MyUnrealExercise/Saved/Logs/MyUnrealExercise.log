@@ -16112,3 +16112,69 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2025.02.21-01.44.47:976][ 53]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15403.654297
 [2025.02.21-01.44.48:976][ 56]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.02.21-01.44.48:976][ 56]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15404.321289, Update Interval: 356.464111
+[2025.02.21-01.48.54:689][431]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2025.02.21-01.48.54:690][431]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2025.02.21-01.48.54:690][431]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube as actor: StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_0
+[2025.02.21-01.48.57:554][598]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2025.02.21-01.48.57:554][598]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2025.02.21-01.48.57:557][598]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube as actor: StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1873112119
+[2025.02.21-01.48.59:154][690]Cmd: EDIT COPY
+[2025.02.21-01.48.59:325][699]Cmd: EDIT PASTE
+[2025.02.21-01.49.01:720][837]Cmd: EDIT PASTE
+[2025.02.21-01.49.03:486][939]Cmd: EDIT PASTE
+[2025.02.21-01.49.07:431][169]Cmd: DELETE
+[2025.02.21-01.49.07:433][169]Cmd: ACTOR DELETE
+[2025.02.21-01.49.07:441][169]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.21-01.49.07:458][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.02.21-01.49.07:465][169]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2025.02.21-01.49.08:020][199]Cmd: DELETE
+[2025.02.21-01.49.08:020][199]Cmd: ACTOR DELETE
+[2025.02.21-01.49.08:022][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.21-01.49.08:034][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.02.21-01.49.08:040][199]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.02.21-01.49.11:024][377]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.21-01.49.11:139][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.02.21-01.49.11:158][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.02.21-01.49.11:177][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.02.21-01.49.11:181][377]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Scene/Untitled/0/0M/PXU9NKBTLNGWASM3OQNCB6
+[2025.02.21-01.49.11:181][377]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Saved/PXU9NKBTLNGWASM3OQNCB6FA03658C44E72465B0BA4886F9585276.tmp' to '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Content/__ExternalActors__/Scene/Untitled/0/0M/PXU9NKBTLNGWASM3OQNCB6.uasset'
+[2025.02.21-01.49.11:184][377]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Scene/Untitled/D/EA/0R8EK7U6TXNMY9BGLCINFP
+[2025.02.21-01.49.11:184][377]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Saved/0R8EK7U6TXNMY9BGLCINFP06D79C354841706689B1368B371BA97A.tmp' to '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Content/__ExternalActors__/Scene/Untitled/D/EA/0R8EK7U6TXNMY9BGLCINFP.uasset'
+[2025.02.21-01.49.11:213][377]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 33.0 sec)
+[2025.02.21-01.49.11:215][377]AssetCheck: New page: Asset Save: multiple assets
+[2025.02.21-01.49.11:215][377]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1879043122
+[2025.02.21-01.49.11:217][377]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1873112119
+[2025.02.21-01.49.32:592][ 49]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2025.02.21-01.49.32:592][ 49]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2025.02.21-01.49.32:592][ 49]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame as actor: StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_1
+[2025.02.21-01.49.36:472][278]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2025.02.21-01.49.36:472][278]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2025.02.21-01.49.36:474][278]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame as actor: StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1912029123
+[2025.02.21-01.49.43:987][580]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
+[2025.02.21-01.49.43:987][580]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
+[2025.02.21-01.49.43:988][580]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door as actor: StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_2
+[2025.02.21-01.49.47:032][760]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
+[2025.02.21-01.49.47:032][760]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
+[2025.02.21-01.49.47:035][760]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door as actor: StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1922589124
+[2025.02.21-01.50.15:834][418]Cmd: MODE ROTGRID=0
+[2025.02.21-01.50.20:051][504]Cmd: MODE SCALEGRID=0
+[2025.02.21-01.50.27:537][856]Cmd: MODE GRID=0
+[2025.02.21-01.50.42:007][671]Cmd: MODE GRID=1
+[2025.02.21-01.50.42:920][680]Cmd: MODE ROTGRID=1
+[2025.02.21-01.50.43:605][687]Cmd: MODE SCALEGRID=1
+[2025.02.21-01.50.48:608][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.02.21-01.50.48:618][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.21-01.50.48:723][721]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Scene/Untitled/D/EA/0R8EK7U6TXNMY9BGLCINFP
+[2025.02.21-01.50.48:724][721]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Saved/0R8EK7U6TXNMY9BGLCINFPEEB17E1D443069CE97EDC98882EA8754.tmp' to '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Content/__ExternalActors__/Scene/Untitled/D/EA/0R8EK7U6TXNMY9BGLCINFP.uasset'
+[2025.02.21-01.50.48:726][721]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Scene/Untitled/7/X2/PYL1NTPV1WDGQIL3LOZ2Z5
+[2025.02.21-01.50.48:726][721]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Saved/PYL1NTPV1WDGQIL3LOZ2Z5412E28A04A1674154C727DAC097DF0C7.tmp' to '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Content/__ExternalActors__/Scene/Untitled/7/X2/PYL1NTPV1WDGQIL3LOZ2Z5.uasset'
+[2025.02.21-01.50.48:729][721]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Scene/Untitled/E/0Z/XU7OMJBMJN59WRXI1Y89FE
+[2025.02.21-01.50.48:729][721]LogSavePackage: Moving '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Saved/XU7OMJBMJN59WRXI1Y89FED51A3C894B5DB2943A2EA98B0FD6DC28.tmp' to '../../../../../../UnrealProjects/UnrealExercise/MyUnrealExercise/Content/__ExternalActors__/Scene/Untitled/E/0Z/XU7OMJBMJN59WRXI1Y89FE.uasset'
+[2025.02.21-01.50.48:743][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 33.2 sec)
+[2025.02.21-01.50.48:746][721]AssetCheck: New page: Asset Save: multiple assets
+[2025.02.21-01.50.48:746][721]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1873112119
+[2025.02.21-01.50.48:747][721]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1922589124
+[2025.02.21-01.50.48:747][721]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Scene/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_902E16352DA6514E02_1912029123
+[2025.02.21-01.51.20:792][139]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15796.407227
+[2025.02.21-01.51.21:791][142]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.21-01.51.21:791][142]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15797.074219, Update Interval: 349.121368
