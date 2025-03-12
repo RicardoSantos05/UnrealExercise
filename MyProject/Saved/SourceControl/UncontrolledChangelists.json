@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"T:/UnrealProjects/UnrealExercise/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"T:/UnrealProjects/UnrealExercise/MyProject/Content/Foxy/Mesh/RicardoSantos_Ex05_B.uasset",
+				"T:/UnrealProjects/UnrealExercise/MyProject/Content/Foxy/Mesh/Character_Mesh.uasset",
+				"T:/UnrealProjects/UnrealExercise/MyProject/Content/Foxy/Mesh/Character_PhysicsAsset.uasset",
+				"T:/UnrealProjects/UnrealExercise/MyProject/Content/Foxy/Mesh/Character_Skeleton.uasset"
+			]
+		}
+	]
+}
