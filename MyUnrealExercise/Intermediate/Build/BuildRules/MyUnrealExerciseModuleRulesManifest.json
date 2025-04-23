@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"T:\\UnrealProjects\\UnrealExercise\\MyUnrealExercise\\Source\\MyUnrealExercise\\MyUnrealExercise.Build.cs",
-		"T:\\UnrealProjects\\UnrealExercise\\MyUnrealExercise\\Source\\MyUnrealExercise.Target.cs",
-		"T:\\UnrealProjects\\UnrealExercise\\MyUnrealExercise\\Source\\MyUnrealExerciseEditor.Target.cs"
-	],
-	"EngineVersion": "5.3.2"
-}
