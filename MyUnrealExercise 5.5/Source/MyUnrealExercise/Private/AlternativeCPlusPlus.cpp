@@ -1,15 +1,11 @@
 #include "AlternativeCPlusPlus.h"
-#include "GameFramework/CharacterMovementComponent.h"
-#include "Components/InputComponent.h"
-#include "GameFramework/Controller.h"
 #include "DrawDebugHelpers.h"
-#include "Kismet/KismetSystemLibrary.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "DoorInteractable.h"
 
 AAlternativeCPlusPlus::AAlternativeCPlusPlus()
 {
 	PrimaryActorTick.bCanEverTick = true;
-
 	bUseControllerRotationYaw = false;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
@@ -23,7 +19,11 @@ void AAlternativeCPlusPlus::BeginPlay()
 void AAlternativeCPlusPlus::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	TraceForInteractable();
+}
 
+void AAlternativeCPlusPlus::TraceForInteractable()
+{
 	FVector Start = GetActorLocation();
 	FVector Forward = GetActorForwardVector();
 	FVector End = Start + (Forward * 200.0f);
@@ -32,7 +32,7 @@ void AAlternativeCPlusPlus::Tick(float DeltaTime)
 	FCollisionQueryParams Params;
 	Params.AddIgnoredActor(this);
 
-	float Radius = 50.f; // <- aumenta este valor para uma margem maior
+	float Radius = 50.f;
 	bool bHit = GetWorld()->SweepSingleByChannel(
 		Hit,
 		Start,
@@ -44,49 +44,23 @@ void AAlternativeCPlusPlus::Tick(float DeltaTime)
 	);
 
 	CurrentLookTarget = bHit ? Hit.GetActor() : nullptr;
-
-	// Mostra esfera de debug (para veres a deteção)
 	DrawDebugSphere(GetWorld(), bHit ? Hit.ImpactPoint : End, Radius, 12, bHit ? FColor::Red : FColor::Green, false, 0.1f);
-}
-
-void AAlternativeCPlusPlus::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	PlayerInputComponent->BindAxis("MoveForward", this, &AAlternativeCPlusPlus::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AAlternativeCPlusPlus::MoveRight);
-
-	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AAlternativeCPlusPlus::Interact);
-}
-
-void AAlternativeCPlusPlus::MoveForward(float Value)
-{
-	if (Controller && Value != 0.0f)
-	{
-		const FRotator YawRotation(0, Controller->GetControlRotation().Yaw, 0);
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, Value);
-	}
-}
-
-void AAlternativeCPlusPlus::MoveRight(float Value)
-{
-	if (Controller && Value != 0.0f)
-	{
-		const FRotator YawRotation(0, Controller->GetControlRotation().Yaw, 0);
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		AddMovementInput(Direction, Value);
-	}
 }
 
 void AAlternativeCPlusPlus::Interact()
 {
 	if (CurrentLookTarget)
 	{
-		ADoorInteractable* Door = Cast<ADoorInteractable>(CurrentLookTarget);
-		if (Door)
+		// Verificar se o ator tem a interface implementada
+		if (CurrentLookTarget && CurrentLookTarget->GetClass()->ImplementsInterface(UMyDoorInterface::StaticClass()))
 		{
-			Door->Interact(this); // Chama a função da interface na porta
+			// Aceder à interface e chamar a função de interação
+			IMyDoorInterface* Interface = Cast<IMyDoorInterface>(CurrentLookTarget);
+			if (Interface)
+			{
+				// Chamar a função da interface
+				Interface->Execute_Interact(CurrentLookTarget, this);  // Adiciona o 'this' como parâmetro para indicar o ator que está a interagir
+			}
 		}
 	}
 }

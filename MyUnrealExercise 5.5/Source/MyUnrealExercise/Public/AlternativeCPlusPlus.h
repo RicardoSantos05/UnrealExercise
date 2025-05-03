@@ -4,8 +4,6 @@
 #include "GameFramework/Character.h"
 #include "AlternativeCPlusPlus.generated.h"
 
-class ADoorInteractable; // Forward declaration
-
 UCLASS()
 class MYUNREALEXERCISE_API AAlternativeCPlusPlus : public ACharacter
 {
@@ -16,14 +14,12 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
-	virtual void Tick(float DeltaTime) override;
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void MoveForward(float Value);
-	void MoveRight(float Value);
+public:
+	virtual void Tick(float DeltaTime) override;
 	void Interact();
 
 private:
-	UPROPERTY()
-	AActor* CurrentLookTarget;
+	void TraceForInteractable();
+	AActor* CurrentLookTarget = nullptr;
 };
